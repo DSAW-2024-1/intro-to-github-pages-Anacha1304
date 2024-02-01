@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
 body {
     background-color: #f3e5d8;
     margin: 0%;
@@ -16,17 +24,19 @@ body {
     margin: 20px;
     width: 90%;
     margin-bottom: 20px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
 }
 h1{
-    font-family: 'Outfit', sans-serif;
-
+    font-family: 'Young Serif';
 }
 
 h2{
     color: brown;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif';
 
+}
+p{
+    font-family: 'Outfit';
 }
 
 img {
@@ -44,13 +54,13 @@ img {
     margin-top: 1%;
     margin-bottom: 20px;
     border-radius: 1%;
-    font-family: 'young serif', sans-serif;
+    font-family: 'Outfit';
 
 }
 
 h3{
     color:  #7f4860;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
 
 }
 
@@ -65,14 +75,14 @@ h3{
 .bold span{
     font-weight: bold;
     margin-bottom: 20px;
-    font-family: 'young serif', sans-serif;
+    font-family: 'Outfit';
 
 }
 
 table{
     width: 100%;
     border-collapse: collapse;
-    font-family: 'young serif', sans-serif;
+    font-family: 'Outfit';
 
 }
 
@@ -82,14 +92,13 @@ th, td {
     text-align: center;
     font-size: 15px;
     margin-bottom: 10px;
-    font-family: 'Outfit';
-    font-family: 'young serif', sans-serif;
+    font-family: 'Young Serif';
 
   }
 
 .numero cambio{
     color: #7f4860;
-    font-family: 'young serif', sans-serif;
+    font-family: 'Outfit';
 
 }
 
