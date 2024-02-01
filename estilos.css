@@ -41,9 +41,9 @@ img {
     background-color:  #fbf4fb ;
     width: 90%;
     margin: 30px;
-    box-sizing: border-box;
     margin-top: 1%;
-    border-radius: 0%;
+    margin-bottom: 20px;
+    border-radius: 1%;
     font-family: 'young serif', sans-serif;
 
 }
