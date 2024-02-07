@@ -47,14 +47,19 @@ img {
     border-radius: 15px;
 }
 
-.secondbox{
-    background-color:  #fbf4fb ;
+.options{
     width: 90%;
-    margin: 30px;
+    margin: 10px;
     margin-top: 1%;
     margin-bottom: 20px;
     border-radius: 1%;
     font-family: 'Outfit';
+}
+
+.secondbox{
+    background-color:  #fbf4fb ;
+    padding: 1rem; 
+    
     ul{
         display: flex;
         flex-direction: column;
@@ -62,25 +67,27 @@ img {
     }
 
 }
+.ingr {
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;   
+    }
+}
 
 .instru{
-    width: 100%;
-    margin: 10px;
-    margin-top: 1%;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    font-family: 'Outfit';
     ul{
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        gap: 1rem
+        gap: 1.5rem
     }
 }
 
 h3{
     color:  #7f4860;
     font-family: 'Outfit';
+    padding: 2px;
 
 }
 
@@ -112,7 +119,7 @@ th, td {
     text-align: center;
     font-size: 15px;
     margin-bottom: 10px;
-    font-family: 'Young Serif';
+    font-family: 'Outfit';
 
   }
 
